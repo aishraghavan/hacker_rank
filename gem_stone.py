@@ -28,7 +28,7 @@ def test_gem_stones():
         c = Set(array_str[index])
         gem_stones =  gem_stones&(c)
 
-    print len(gem_stones) if len(gem_stones)>0 else None
+    print len(gem_stones) if len(gem_stones)>0 else 0
 
 
 test_gem_stones()
